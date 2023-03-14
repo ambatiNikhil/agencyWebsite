@@ -1,0 +1,172 @@
+.headingBox{
+    background-color: grey;
+    border-bottom: 5px solid yellow;
+}
+
+.containerOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headingContainer{
+    padding: 5px;
+    margin-left: 35px;
+
+}
+
+.headingStyle{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.headingBox nav {
+    margin: 5px;
+}
+
+.headingBox ul{
+    list-style: none;
+}
+
+.headingBox a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.headingBox li{
+    display: inline; 
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+}
+
+.showcase{
+    height: 400px;
+    text-align: center;
+    background-image: url("https://www.shutterstock.com/image-photo/professional-development-programmer-working-programming-600w-1233726961.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0-200px;
+    color: white;
+}
+.skillsBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+}
+.skillcontainer{
+    width: 25%;
+    text-align: center;    
+    margin-top: 5px;
+}
+
+.fa-brands{
+    font-size: 60px;
+}
+
+.aboutBg{
+    background-image: linear-gradient(to right ,black,brown,grey);
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+}
+
+.serviceCont{
+    background-image: linear-gradient(to top , blue , green,yellow);
+    height: 100vh;
+    background-size: cover;
+    color:white;
+    padding: 15px;
+}
+
+.mainBox{
+    display: flex;
+    flex-direction: row;
+}
+.courseBox{
+    width: 25%;
+    text-align: center;
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.courseHeading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.mainBox h1{
+    font-weight: 300;
+    color: black;
+    font-size: 30px;
+}
+
+.anchorStyle{
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.formStyle{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.formInput{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+.formStyle label{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin: 5px;
+    color: white;
+}
+
+.btnStyle{
+    height: 40px; 
+    width: 90px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.buttonStyle{
+    height: 40px; 
+    width: 90px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.formBg{
+    background-image: linear-gradient(to right,green,blue,red,pink);
+    height: 100vh;
+    background-size: cover;
+}
